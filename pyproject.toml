@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "oncall-agent"
+version = "0.1.0"
+description = "oncall agent"
+authors = ["Cecile Yang <cecile.yang@doordash.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+portkey-ai = "^1.9.9"
+weaviate-client = "^4.10.2"
+portkey = "^0.1.2"
+langchain = "^0.3.13"
+langchain-openai = "^0.2.14"
+pypdf = "^5.1.0"
+tiktoken = "^0.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
