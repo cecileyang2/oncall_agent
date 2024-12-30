@@ -3,9 +3,9 @@ import os
 
 # https://doordash.atlassian.net/wiki/spaces/Eng/pages/3717661428/GenAI+Gateway+FAQs#Databricks
 base_url = os.environ.get("PORTKEY_BASE_URL", "http://cybertron-service-gateway.service.prod.ddsd:8080/v1")
-api_key = "+NZF4flAKntClRPhantgoT6xDE0n"
+api_key = "YOUR_OWN_API_KEY"
 # NOTE: Fetch this from https://app.portkey.ai/virtual-keys
-virtual_key = "openai-marketpl-2e986c"
+virtual_key = "YOUR_OWN_VIRTUAL_API_KEY"
 
 def get_portkey_client():
     try:
